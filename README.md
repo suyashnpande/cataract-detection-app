@@ -15,8 +15,7 @@ Step 3: Create and Activate a Virtual Environment
         
          python -m venv venv
          
-         
-  2. Activate the Virtual Environment with :
+2. Activate the Virtual Environment with :
      
         venv\Scripts\activate
 
