@@ -49,3 +49,23 @@ With the virtual environment activated and in your project root directory (where
 Step 9: Deploy Your Streamlit App (optional)
 
 
+-------------------------------------------------------
+
+your_project_directory/
+├── processed_images/
+│   ├── train/
+│   │   ├── cataract/
+│   │   │   └── image1.jpg
+│   │   │   └── image2.jpg
+│   │   └── normal/
+│   │       └── image1.jpg
+│   └── test/
+│       ├── cataract/
+│       └── normal/
+├── model_training/
+│   ├── train_model.py
+│   └── run_training.bat
+├── cataract_app.py
+├── requirements.txt
+└── final_model.keras
+( may looks like this )
