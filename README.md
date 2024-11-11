@@ -11,13 +11,16 @@
 Step 3: Create and Activate a Virtual Environment
       1. Create a Virtual Environment:
          Run the following command to create a virtual environment called venv:
+         
          python -m venv venv
 
      2. Activate the Virtual Environment with :
+     
         venv\Scripts\activate
 
 Step 4: Install Required Packages
 With the virtual environment activated, run:
+
       python -m pip install --upgrade pip
       python -m pip install -r requirement.txt
 
@@ -27,6 +30,7 @@ Step 5: Train Your Model
         cd model_training
         
 Then run the training script:
+
         python train_model.py
         
 This process will take some time as it trains the model. Monitor the command line for any errors or progress messages.
@@ -39,6 +43,7 @@ Step 6: Check Model Output
 
 Step 8: Run the Streamlit Application
 With the virtual environment activated and in your project root directory (where cataract_app.py is located), run:
+
       streamlit run cataract_app.py
 
 Step 9: Deploy Your Streamlit App (optional)
