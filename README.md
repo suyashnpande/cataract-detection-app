@@ -10,9 +10,11 @@
 
 Step 3: Create and Activate a Virtual Environment
       1. Create a Virtual Environment:
-         Run the following command to create a virtual environment called venv:
-         
+        Run the following command to create a virtual environment called venv:
+
+        
          python -m venv venv
+         
          
   2. Activate the Virtual Environment with :
      
